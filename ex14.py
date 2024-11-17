@@ -1,9 +1,11 @@
+from __future__ import annotations
+
 from sys import argv
 
-script = input("ENTER SCRIPT NAME: ")
-user_name = input("enter user name: ")
+script = input('ENTER SCRIPT NAME: ')
+user_name = input('enter user name: ')
 prompt = '> '
-#san = '@ '
+# san = '@ '
 
 print(f"Hi {user_name}, I'm the {script} script.")
 
@@ -17,9 +19,9 @@ print(f"Where do you live {user_name}?")
 lives = input(prompt)
 # lives = input(san)
 
-print("What kind of computer do you have?")
+print('What kind of computer do you have?')
 computer = input(prompt)
-#computer = input()
+# computer = input()
 
 
 print(f"""

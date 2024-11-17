@@ -1,10 +1,11 @@
-#Here's some new strange stuff, remember type it exactly.
+# Here's some new strange stuff, remember type it exactly.
+from __future__ import annotations
 
-days = "Mon Tue Wed Thu Fri Sat Sun"
-months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
+days = 'Mon Tue Wed Thu Fri Sat Sun'
+months = 'Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug'
 
-print("Here are the days: ", days)
-print("Here are the months: ", months)
+print('Here are the days: ', days)
+print('Here are the months: ', months)
 
 print("""
 There's something going on here.

@@ -1,10 +1,11 @@
-print("How old are you?", end=' ')
+from __future__ import annotations
+print('How old are you?', end=' ')
 age = input()
-print("How tall are you?", end = ' ')
+print('How tall are you?', end=' ')
 height = input()
-print("How much do you weigh?", end = ' ')
+print('How much do you weigh?', end=' ')
 weight = input()
 
 print(f"So, you're {age} old, {height} tall and {weight} heavy.")
 
-#print("So, you're" , age, " years old, ",height, "tall and ",weight, " heavy.")
+# print("So, you're" , age, " years old, ",height, "tall and ",weight, " heavy.")

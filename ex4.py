@@ -1,4 +1,5 @@
-#VARIABLES AND NAMES
+# VARIABLES AND NAMES
+from __future__ import annotations
 
 cars = 100
 space_in_a_car = 4.0
@@ -11,7 +12,7 @@ average_passengers_per_car = passengers / cars_driven
 
 print(f"There are {cars} cars available.")
 print(f"There are only {drivers} drivers available.")
-print("There will be " , cars_not_driven, "empty cars today.")
+print('There will be ', cars_not_driven, 'empty cars today.')
 print(f"We can transport {carpool_capacity} people today.")
 print(f"We have {passengers} to carpool today.")
 print(f"We need to put about {average_passengers_per_car} in each car.")
